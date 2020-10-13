@@ -1,0 +1,240 @@
+/*Estilos para todo el body*/
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*Fin de estilos para todo el body*/
+
+/*------------------------------Inico de estilos del formulario: "Ingrese nuevo empleado"-----------------------------------------------------------------*/
+.ventana{
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 35%;
+}
+
+img{
+    width: 20px; 
+    height: 20px;
+    margin-left: 330px;
+}
+
+::placeholder{
+    color: #1B1F4D;
+}
+
+.form-registro{
+    width: 400px;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    color: #0E1011;
+    background: #EAF2F8;
+}
+
+.form-registro h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black; 
+}
+
+.controls{
+    width: 100%;
+    background: #D4E6F1   ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #D4E6F1;
+    font-size: 18px;
+    border-bottom: 3px solid #1A5276
+}
+
+.form-registro .botons{
+    width: 100%;
+    background: #D4E6F1;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-registro .botons:hover{
+    background-color: #1A5276;
+    color: white;
+}
+/*------------------------------Fin de estilos del formulario: "Ingrese nuevo empleado"-----------------------------------------------------------------*/
+
+/*------------------------------Inicio de estilos del formulario: "Modificar"-----------------------------------------------------------------*/
+.modal{
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 35%;
+    
+}
+
+.form-registro .boton_modificar{
+    width: 100%;
+    background: #D4E6F1;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-registro .boton_modificar:hover{
+    background-color: #1A5276;
+    color: white;
+}
+/*------------------------------Fin de estilos del formulario: "Modificar"-----------------------------------------------------------------*/
+
+/*------------------------------Inicio de estilos del boton: ingresar nuevo emplado-----------------------------------------------------------------*/
+.nuevo{
+    width: 100%;
+    background:#2ECC71;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nuevo:hover{
+    background-color: #239B56;
+    color: white;
+}
+/*------------------------------Fin de estilos del boton: ingresar nuevo emplado-----------------------------------------------------------------*/
+
+/*------------------------------Inicio de estilos de la tabla emplados-----------------------------------------------------------------*/
+#main-tabla{
+    margin: 30px;
+    width: 1090px;
+}
+
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 150%;
+    margin-right: 30px;
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead{
+    background-color: #239B56;
+    border-bottom: solid 5px #239B56;
+    color: white;
+}
+
+tr:hover td{
+    background-color: #D4EFDF;
+    color: black;
+}
+
+.btn_modificar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_modificar .modificar{
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: auto;
+}
+
+.btn_eliminar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_eliminar .eliminar{
+     width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: auto;
+}
+
+#btn_mod{
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    border: none;
+}
+
+#mod{
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#btn_eli{
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    border: none;
+}
+
+#eli{
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: auto;
+    cursor: pointer;
+}
+/*------------------------------Fin de estilos de la tabla emplados-----------------------------------------------------------------*/
+
+footer{
+    min-width: 100%;
+    background: #101010;
+    color: white;
+}
+
+.container-body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright{
+    color: #c7c7c7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
